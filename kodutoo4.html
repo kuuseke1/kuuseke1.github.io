@@ -4,8 +4,6 @@
     <head>
 
         <title>Kodutöö 4</title>
-
-        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
 
@@ -13,14 +11,17 @@
 
     <body>
 
-        <img src="100prossaturvaline.png" alt="Encrypt text nstuff" style="max-width:100%;height:auto; width="670" height="300">
+        <img src="100prossaturvaline.png" alt="Encrypt text nstuff" width="670" height="300">
 
         <h1>Encrypt text</h1>
 
-        <textarea name="input" rows="20" cols="80"></TEXTAREA>
+        <form>
+            <textarea name="input" rows="20" cols="80"></textarea>
 
-        <input type="submit" value="Encrypt">
+            <input name="OTP-encrypt" type="submit" value="OTP-encrypt onclick="document.getElementById('key').style.display='block'"">
 
+            <input name="key" id="key" style="display:none">
+        </form>
     </body>
 
 </html>
