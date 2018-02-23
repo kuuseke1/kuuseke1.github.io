@@ -1,4 +1,4 @@
-function example(text) {
-    return text + "aab"
+function example() {
+    return "SA SAID HAKKAMA WOW 100"
 }
-document.getElementById("result").innerHTML = example(text)
+document.getElementById("result").innerHTML = example()
