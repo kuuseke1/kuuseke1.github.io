@@ -6,6 +6,7 @@
         <title>Kodutöö 4</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
+        <script src="hashfunctions.js"></script>
 
     </head>
 
@@ -16,12 +17,12 @@
         <h1>Encrypt text</h1>
 
         <form>
-            <textarea name="input" rows="20" cols="80"></textarea>
+            <textarea name="input" rows="20" cols="80"></textarea><br>
 
-            <input name="OTP-encrypt" type="submit" value="OTP-encrypt" onclick="document.getElementById('key').style.display='block'">
-
-            <input name="key" id="key" style="display:none">
+            <input name="Test Submit" type="submit" value="OTP-encrypt" onclick="example(input)">
+            
         </form>
+        <p id="result"></p>
     </body>
 
 </html>
