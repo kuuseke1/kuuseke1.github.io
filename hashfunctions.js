@@ -1,3 +1,3 @@
 function example() {
-    document.getElementById("result").innerHTML = "SA SAID HAKKAMA WOW 100";
+    document.write("SA SAID HAKKAMA WOW 100");
 }
